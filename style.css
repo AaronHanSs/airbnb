@@ -1,0 +1,342 @@
+/*HEARDER*/
+header{
+  color: #fff;
+}
+
+.image{
+  background-image: url("images/Nuit.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  margin-bottom: 30%;
+  padding-bottom: 1%;
+  z-index: -1;
+  margin-bottom: 0%;
+}
+
+.logotexte{
+  text-decoration: none;
+}
+.logo{
+  width: 6%;
+  color: transparent;
+  padding: 1% 0 0 1%;
+}
+
+a{
+  color: #FFF;
+}
+
+input{
+  background-color: transparent;
+}
+
+.boutton{
+  border-radius: 10%;
+  border-color: #FFF;
+  border: solid;
+  padding: 2px 4px;
+}
+
+.positionlink{
+  float: right;
+  padding-top: 20px;
+}
+
+h1{
+  text-align: center;
+  padding-top: 10%;
+}
+
+.titre{
+  text-align: center;
+}
+
+.button,.button1 {
+  border-radius: 10%;
+  width: 10%;
+  margin-top: 5%;
+  }
+
+.button1{
+    /*margin-right: 22%;*/
+    width: 80%;
+
+}
+
+.azerty{
+  padding-left: 16%;
+}
+
+.button ,.btn-group
+{
+  visibility: hidden;
+}
+
+a{
+  visibility: hidden;
+}
+/*end HEADER*/
+
+/*SECTION*/
+
+  /*image*/
+.img{
+  z-index: -1;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  /*width: 40%;*/
+  }
+  /*image*/
+
+  /*text image*/
+  .firstsection{
+    position: relative;
+  }
+.texte1{
+  font-size: 20px;
+  position:absolute;
+  right: 30%;
+  bottom: 400px;
+  color: #FFF;
+  }
+  .texte2{
+    font-size: 15px;
+    position:absolute;
+    bottom: 350px;
+    right: 35%;
+    color: #FFF;
+    }
+  /*text image*/
+
+
+  /*Boutton revenue*/
+.button2{
+  position: absolute;
+  bottom: 300px;
+  right: 40px;
+  width: 90%;
+  padding: 1% 0%;
+  background-color: #1887A6;
+  color: #FFF;
+}
+  /*boutton revenue*/
+
+  /*title week end*/
+
+h2{
+  text-align: center;
+  padding-top: 5%;
+}
+
+  /*end title*/
+
+
+/*destination week end*/
+
+.weekend{
+  position: relative;
+}
+
+.img-fluid{
+  z-index: -1;
+  padding: auto;
+}
+
+.T1{
+  position: absolute;
+  right: 45%;
+  top: 15%;
+  color: #FFF;
+}
+
+.T2{
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  color: #FFF;
+}
+
+.T3{
+  position: absolute;
+  top: 85%;
+  right: 45%;
+  color: #FFF;
+}
+
+.monde{
+  position: relative;
+}
+
+.T4{
+  position: absolute;
+  right: 45%;
+  top: 15%;
+  color: #FFF;
+}
+
+.T5{
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  color: #FFF;
+}
+
+.T6{
+  position: absolute;
+  top: 85%;
+  right: 45%;
+  color: #FFF;
+}
+ul,h6{
+  display: inline;
+  visibility: hidden;
+}
+
+footer{
+  margin-top: 10%;
+  background-image: url("images/background.jpg");
+}
+/*##############################################################################
+################################pc size#########################################
+##############################################################################*/
+@media screen and (min-width: 1199px) {
+
+section{
+  margin: 0 20%;
+}
+
+.img{
+  height: 60%;
+  width: 60%;
+  float: left;
+  margin-top: 0;
+  /*margin-right: 5%;*/
+  margin-bottom: 0;
+}
+
+h2{
+  /*margin-top: 60%;*/
+}
+
+.T0{
+  margin-top: 0;
+}
+.button ,.btn-group
+{
+  visibility: visible;
+}
+
+a{
+  visibility: visible;
+}
+
+.button1{
+  width: 10%;
+  margin-left: 20%;
+  padding-left: 0;
+}
+
+.button2{
+  position: static;
+  width: 30%;
+  margin-left: 80%;
+  float: right;
+  }
+
+.titreimage{
+  border: solid;
+  border-color: black;
+  padding-right: 40%;
+}
+.texte1,.texte2{
+  position: static;
+  color: black;
+  margin-left: 70%;
+  font-size: 15px;
+  text-align: center;
+  /*margin-top: 5%;*/
+}
+
+.text1{
+  margin-top: 40%;
+}
+
+.firstsection {
+display: inline-flex;
+}
+
+.Taligne{
+  align-items: flex-start;
+  flex-basis: auto;
+}
+.img1{
+  height: 60%;
+  width: 60%;
+}
+.weekend{
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.T1{
+  left: 15%;
+  top: 50%;
+}
+
+.T2{
+  left: 45%;
+  top: 50%;
+}
+
+.T3{
+  left: 80%;
+  top: 50%;
+}
+
+.monde{
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.T4{
+  left: 10%;
+  top: 30%;
+}
+
+.T5{
+  left: 45%;
+  top: 30%;
+}
+
+.T6{
+  left: 80%;
+  top: 30%;
+}
+
+.img-fluid{
+  width: 800px;
+}
+.liste{
+  display: inline;
+}
+
+.footerliste{
+  display: flex;
+}
+
+.liste ul{
+  display: inline-block;
+  margin-right: 75%;
+  }
+
+.liste li,h6{
+  color: #fff;
+}
+ul,h6{
+  visibility: visible;
+}
+
+.selectlangue{
+  width: 40%;
+}
+}
